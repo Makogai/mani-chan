@@ -1,5 +1,5 @@
 <template>
-    <section class="text-gray-700 body-font bg-gray-900 h-screen">
+    <section class="text-gray-700 body-font">
         <div class="container px-8 py-48 mx-auto lg:px-4">
             <div class="flex flex-col w-full mb-12 sm:justify-center items-center text-left lg:text-center">
                     <jet-authentication-card-logo />

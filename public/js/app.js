@@ -33884,96 +33884,92 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "section",
-    { staticClass: "text-gray-700 body-font bg-gray-900 h-screen" },
-    [
-      _c("div", { staticClass: "container px-8 py-48 mx-auto lg:px-4" }, [
-        _c(
-          "div",
-          {
-            staticClass:
-              "flex flex-col w-full mb-12 sm:justify-center items-center text-left lg:text-center"
-          },
-          [
-            _c("jet-authentication-card-logo"),
-            _vm._v(" "),
-            _c(
-              "h2",
-              {
-                staticClass:
-                  "mb-1 mt-5 text-xs font-semibold tracking-widest text-blue-600 uppercase title-font"
-              },
-              [
-                _vm._v(
-                  "\n                ara ara sup weeabu-kun\n               "
-                )
-              ]
-            ),
-            _vm._v(" "),
-            _vm._m(0),
-            _vm._v(" "),
-            _c(
-              "p",
-              {
-                staticClass:
-                  "mx-auto text-base font-medium leading-relaxed text-gray-700 lg:w-2/3"
-              },
-              [
-                _vm._v(
-                  "\n                This is my personal anime tracking website. It's still super early development, but it aint that bad heey.\n            "
-                )
-              ]
-            )
-          ],
-          1
-        ),
-        _vm._v(" "),
-        _vm.canLogin
-          ? _c(
-              "div",
-              { staticClass: "flex lg:justify-center" },
-              [
-                _vm.$page.props.user
-                  ? _c(
+  return _c("section", { staticClass: "text-gray-700 body-font" }, [
+    _c("div", { staticClass: "container px-8 py-48 mx-auto lg:px-4" }, [
+      _c(
+        "div",
+        {
+          staticClass:
+            "flex flex-col w-full mb-12 sm:justify-center items-center text-left lg:text-center"
+        },
+        [
+          _c("jet-authentication-card-logo"),
+          _vm._v(" "),
+          _c(
+            "h2",
+            {
+              staticClass:
+                "mb-1 mt-5 text-xs font-semibold tracking-widest text-blue-600 uppercase title-font"
+            },
+            [
+              _vm._v(
+                "\n                ara ara sup weeabu-kun\n               "
+              )
+            ]
+          ),
+          _vm._v(" "),
+          _vm._m(0),
+          _vm._v(" "),
+          _c(
+            "p",
+            {
+              staticClass:
+                "mx-auto text-base font-medium leading-relaxed text-gray-700 lg:w-2/3"
+            },
+            [
+              _vm._v(
+                "\n                This is my personal anime tracking website. It's still super early development, but it aint that bad heey.\n            "
+              )
+            ]
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _vm.canLogin
+        ? _c(
+            "div",
+            { staticClass: "flex lg:justify-center" },
+            [
+              _vm.$page.props.user
+                ? _c(
+                    "inertia-link",
+                    {
+                      staticClass:
+                        "inline-flex items-center px-4 py-2 ml-4 font-semibold text-blue-800 transition duration-500 ease-in-out transform bg-white border rounded-lg shadow-xl hover:border-gray-600 hover:bg-gray-600 hover:text-white focus:shadow-outline focus:outline-none",
+                      attrs: { href: _vm.route("dashboard") }
+                    },
+                    [_vm._v("Dashboard")]
+                  )
+                : [
+                    _c(
                       "inertia-link",
                       {
                         staticClass:
-                          "inline-flex items-center px-4 py-2 ml-4 font-semibold text-blue-800 transition duration-500 ease-in-out transform bg-white border rounded-lg shadow-xl hover:border-gray-600 hover:bg-gray-600 hover:text-white focus:shadow-outline focus:outline-none",
-                        attrs: { href: _vm.route("dashboard") }
+                          "inline-flex px-4 py-2 font-semibold text-white transition duration-500 ease-in-out transform rounded-lg shadow-xl bg-gradient-to-r from-blue-700 hover:from-blue-600 to-blue-600 hover:to-blue-700 focus:shadow-outline focus:outline-none",
+                        attrs: { href: _vm.route("login") }
                       },
-                      [_vm._v("Dashboard")]
-                    )
-                  : [
-                      _c(
-                        "inertia-link",
-                        {
-                          staticClass:
-                            "inline-flex px-4 py-2 font-semibold text-white transition duration-500 ease-in-out transform rounded-lg shadow-xl bg-gradient-to-r from-blue-700 hover:from-blue-600 to-blue-600 hover:to-blue-700 focus:shadow-outline focus:outline-none",
-                          attrs: { href: _vm.route("login") }
-                        },
-                        [_vm._v("Login")]
-                      ),
-                      _vm._v(" "),
-                      _vm.canRegister
-                        ? _c(
-                            "inertia-link",
-                            {
-                              staticClass:
-                                "inline-flex items-center px-4 py-2 ml-4 font-semibold text-blue-800 transition duration-500 ease-in-out transform bg-white border rounded-lg shadow-xl hover:border-gray-600 hover:bg-gray-600 hover:text-white focus:shadow-outline focus:outline-none",
-                              attrs: { href: _vm.route("register") }
-                            },
-                            [_vm._v("Register")]
-                          )
-                        : _vm._e()
-                    ]
-              ],
-              2
-            )
-          : _vm._e()
-      ])
-    ]
-  )
+                      [_vm._v("Login")]
+                    ),
+                    _vm._v(" "),
+                    _vm.canRegister
+                      ? _c(
+                          "inertia-link",
+                          {
+                            staticClass:
+                              "inline-flex items-center px-4 py-2 ml-4 font-semibold text-blue-800 transition duration-500 ease-in-out transform bg-white border rounded-lg shadow-xl hover:border-gray-600 hover:bg-gray-600 hover:text-white focus:shadow-outline focus:outline-none",
+                            attrs: { href: _vm.route("register") }
+                          },
+                          [_vm._v("Register")]
+                        )
+                      : _vm._e()
+                  ]
+            ],
+            2
+          )
+        : _vm._e()
+    ])
+  ])
 }
 var staticRenderFns = [
   function() {

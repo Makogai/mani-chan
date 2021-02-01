@@ -25,18 +25,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b58e5bd0-ea53-4fa3-91bf-299f2f2355d5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/jetstream.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/jetstream.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/Jetstream/AuthenticationCard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Jetstream/AuthenticationCard.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/Jetstream/Checkbox.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Jetstream/Checkbox.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/Jetstream/Label.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Jetstream/Label.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/Pages/Auth/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Pages/Auth/Login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/Pages/Auth/Register.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Pages/Auth/Register.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/Pages/Welcome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Pages/Welcome.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/markdown/policy.md" beforeDir="false" afterPath="$PROJECT_DIR$/resources/markdown/policy.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/markdown/terms.md" beforeDir="false" afterPath="$PROJECT_DIR$/resources/markdown/terms.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/errors/503.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/errors/503.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +187,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612187640345</updated>
-      <workItem from="1612187641770" duration="9930000" />
+      <workItem from="1612187641770" duration="10088000" />
     </task>
     <servers />
   </component>
