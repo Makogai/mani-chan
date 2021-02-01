@@ -3707,6 +3707,9 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
+//
+//
 
 
 
@@ -5103,6 +5106,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+/* harmony import */ var _Jetstream_AuthenticationCardLogo__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @/Jetstream/AuthenticationCardLogo */ "./resources/js/Jetstream/AuthenticationCardLogo.vue");
 //
 //
 //
@@ -5189,12 +5193,35 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   props: {
     canLogin: Boolean,
     canRegister: Boolean,
     laravelVersion: String,
     phpVersion: String
+  },
+  components: {
+    JetAuthenticationCardLogo: _Jetstream_AuthenticationCardLogo__WEBPACK_IMPORTED_MODULE_0__.default
   }
 });
 
@@ -28275,7 +28302,13 @@ var render = function() {
     "div",
     {
       staticClass:
-        "min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gray-900"
+        "min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bga-gray-900",
+      staticStyle: {
+        "background-image":
+          "url('https://cutewallpaper.org/21/hd-gifs-wallpaper/Gifs-Anime-1920x1080-Ryanmartinproductions.com.gif')",
+        "background-repeat": "no-repeat",
+        "background-size": "cover"
+      }
     },
     [
       _c("div", [_vm._t("logo")], 2),
@@ -28284,7 +28317,7 @@ var render = function() {
         "div",
         {
           staticClass:
-            "w-full sm:max-w-md mt-6 px-6 py-4 bg-white shadow-md overflow-hidden sm:rounded-lg"
+            "w-full sm:max-w-md mt-6 px-6 py-4 bg-gray-700 shadow-md overflow-hidden sm:rounded-lg"
         },
         [_vm._t("default")],
         2
@@ -28591,7 +28624,7 @@ var render = function() {
       }
     ],
     staticClass:
-      "rounded border-gray-300 text-indigo-600 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50",
+      "rounded border-gray-300 text-indigo-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50",
     attrs: { type: "checkbox" },
     domProps: {
       value: _vm.value,
@@ -29288,7 +29321,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "label",
-    { staticClass: "block font-medium text-sm text-gray-700" },
+    { staticClass: "block font-medium text-sm text-gray-300" },
     [
       _vm.value
         ? _c("span", [_vm._v(_vm._s(_vm.value))])
@@ -31534,7 +31567,7 @@ var render = function() {
                   }
                 }),
                 _vm._v(" "),
-                _c("span", { staticClass: "ml-2 text-sm text-gray-600" }, [
+                _c("span", { staticClass: "ml-2 text-sm text-gray-300" }, [
                   _vm._v("Remember me")
                 ])
               ],
@@ -31551,7 +31584,7 @@ var render = function() {
                     "inertia-link",
                     {
                       staticClass:
-                        "underline text-sm text-gray-600 hover:text-gray-900",
+                        "underline text-sm text-gray-300 hover:text-gray-500",
                       attrs: { href: _vm.route("password.request") }
                     },
                     [
@@ -31561,6 +31594,16 @@ var render = function() {
                     ]
                   )
                 : _vm._e(),
+              _vm._v(" "),
+              _c(
+                "inertia-link",
+                {
+                  staticClass:
+                    "ml-4 text-sm text-gray-300 underline hover:text-gray-500",
+                  attrs: { href: _vm.route("register") }
+                },
+                [_vm._v("\n                Register\n            ")]
+              ),
               _vm._v(" "),
               _c(
                 "jet-button",
@@ -31764,7 +31807,7 @@ var render = function() {
                             "a",
                             {
                               staticClass:
-                                "underline text-sm text-gray-600 hover:text-gray-900",
+                                "underline text-sm text-gray-400 hover:text-gray-500",
                               attrs: {
                                 target: "_blank",
                                 href: _vm.route("terms.show")
@@ -31777,7 +31820,7 @@ var render = function() {
                             "a",
                             {
                               staticClass:
-                                "underline text-sm text-gray-600 hover:text-gray-900",
+                                "underline text-sm text-gray-400 hover:text-gray-500",
                               attrs: {
                                 target: "_blank",
                                 href: _vm.route("policy.show")
@@ -31803,7 +31846,7 @@ var render = function() {
                 "inertia-link",
                 {
                   staticClass:
-                    "underline text-sm text-gray-600 hover:text-gray-900",
+                    "underline text-sm text-gray-300 hover:text-gray-500",
                   attrs: { href: _vm.route("login") }
                 },
                 [_vm._v("\n                Already registered?\n            ")]
@@ -33842,55 +33885,115 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c(
-    "div",
-    {
-      staticClass:
-        "relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0"
-    },
+    "section",
+    { staticClass: "text-gray-700 body-font bg-gray-900 h-screen" },
     [
-      _vm.canLogin
-        ? _c(
-            "div",
-            { staticClass: "hidden fixed top-0 right-0 px-6 py-4 sm:block" },
-            [
-              _vm.$page.props.user
-                ? _c(
-                    "inertia-link",
-                    {
-                      staticClass: "text-sm text-gray-700 underline",
-                      attrs: { href: "/dashboard" }
-                    },
-                    [_vm._v("\n            Dashboard\n        ")]
-                  )
-                : [
-                    _c(
+      _c("div", { staticClass: "container px-8 py-48 mx-auto lg:px-4" }, [
+        _c(
+          "div",
+          {
+            staticClass:
+              "flex flex-col w-full mb-12 sm:justify-center items-center text-left lg:text-center"
+          },
+          [
+            _c("jet-authentication-card-logo"),
+            _vm._v(" "),
+            _c(
+              "h2",
+              {
+                staticClass:
+                  "mb-1 mt-5 text-xs font-semibold tracking-widest text-blue-600 uppercase title-font"
+              },
+              [
+                _vm._v(
+                  "\n                ara ara sup weeabu-kun\n               "
+                )
+              ]
+            ),
+            _vm._v(" "),
+            _vm._m(0),
+            _vm._v(" "),
+            _c(
+              "p",
+              {
+                staticClass:
+                  "mx-auto text-base font-medium leading-relaxed text-gray-700 lg:w-2/3"
+              },
+              [
+                _vm._v(
+                  "\n                This is my personal anime tracking website. It's still super early development, but it aint that bad heey.\n            "
+                )
+              ]
+            )
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _vm.canLogin
+          ? _c(
+              "div",
+              { staticClass: "flex lg:justify-center" },
+              [
+                _vm.$page.props.user
+                  ? _c(
                       "inertia-link",
                       {
-                        staticClass: "text-sm text-gray-700 underline",
-                        attrs: { href: _vm.route("login") }
+                        staticClass:
+                          "inline-flex items-center px-4 py-2 ml-4 font-semibold text-blue-800 transition duration-500 ease-in-out transform bg-white border rounded-lg shadow-xl hover:border-gray-600 hover:bg-gray-600 hover:text-white focus:shadow-outline focus:outline-none",
+                        attrs: { href: _vm.route("dashboard") }
                       },
-                      [_vm._v("\n                Login\n            ")]
-                    ),
-                    _vm._v(" "),
-                    _vm.canRegister
-                      ? _c(
-                          "inertia-link",
-                          {
-                            staticClass: "ml-4 text-sm text-gray-700 underline",
-                            attrs: { href: _vm.route("register") }
-                          },
-                          [_vm._v("\n                Register\n            ")]
-                        )
-                      : _vm._e()
-                  ]
-            ],
-            2
-          )
-        : _vm._e()
+                      [_vm._v("Dashboard")]
+                    )
+                  : [
+                      _c(
+                        "inertia-link",
+                        {
+                          staticClass:
+                            "inline-flex px-4 py-2 font-semibold text-white transition duration-500 ease-in-out transform rounded-lg shadow-xl bg-gradient-to-r from-blue-700 hover:from-blue-600 to-blue-600 hover:to-blue-700 focus:shadow-outline focus:outline-none",
+                          attrs: { href: _vm.route("login") }
+                        },
+                        [_vm._v("Login")]
+                      ),
+                      _vm._v(" "),
+                      _vm.canRegister
+                        ? _c(
+                            "inertia-link",
+                            {
+                              staticClass:
+                                "inline-flex items-center px-4 py-2 ml-4 font-semibold text-blue-800 transition duration-500 ease-in-out transform bg-white border rounded-lg shadow-xl hover:border-gray-600 hover:bg-gray-600 hover:text-white focus:shadow-outline focus:outline-none",
+                              attrs: { href: _vm.route("register") }
+                            },
+                            [_vm._v("Register")]
+                          )
+                        : _vm._e()
+                    ]
+              ],
+              2
+            )
+          : _vm._e()
+      ])
     ]
   )
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "h1",
+      {
+        staticClass:
+          "mb-6 text-2xl font-semibold tracking-tighter text-blue-800 sm:text-5xl title-font"
+      },
+      [
+        _vm._v("\n                Welcome to ManiChan!\n                "),
+        _c("br", { staticClass: "md:hidden" }),
+        _vm._v("\n                Have a nice staying :D !\n            ")
+      ]
+    )
+  }
+]
 render._withStripped = true
 
 
