@@ -25,12 +25,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b58e5bd0-ea53-4fa3-91bf-299f2f2355d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/js/Pages/Maintenance.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/errors/503.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/down" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/down" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Jetstream/ApplicationLogo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Jetstream/ApplicationLogo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Jetstream/ApplicationMark.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Jetstream/ApplicationMark.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Jetstream/AuthenticationCard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Jetstream/AuthenticationCard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Jetstream/AuthenticationCardLogo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Jetstream/AuthenticationCardLogo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Jetstream/NavLink.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Jetstream/NavLink.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Jetstream/Welcome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Jetstream/Welcome.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Layouts/AppLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Layouts/AppLayout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Pages/Welcome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Pages/Welcome.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +196,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612187640345</updated>
-      <workItem from="1612187641770" duration="3747000" />
+      <workItem from="1612187641770" duration="5205000" />
     </task>
     <servers />
   </component>
@@ -219,9 +223,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="604" y="332" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1612191011302" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1612189800168">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1612192890231">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1612189800168" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1612192890231" />
   </component>
 </project>
