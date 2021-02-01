@@ -1,5 +1,5 @@
 {
-    "redirect": null,
+    "redirect": "/down",
     "retry": null,
     "secret": "mare-dev",
     "status": 503,
