@@ -1,10 +1,4 @@
 <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-<style>
-    body{
-        background-image: url("https://www.itl.cat/pngfile/big/4-43065_anime-wallpaper-gif-1080p.jpg");
-
-    }
-</style>
 <body class="bg-gray-800" >
 
 
