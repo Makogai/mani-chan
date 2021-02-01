@@ -25,7 +25,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b58e5bd0-ea53-4fa3-91bf-299f2f2355d5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/js/Pages/Welcome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Pages/Welcome.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +190,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612187640345</updated>
-      <workItem from="1612187641770" duration="10088000" />
+      <workItem from="1612187641770" duration="10730000" />
     </task>
     <servers />
   </component>
@@ -218,9 +221,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="479" y="129" width="577" height="566" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1612202627635" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1612203415659">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1612206115678">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1612203415659" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1612206115678" />
   </component>
 </project>
