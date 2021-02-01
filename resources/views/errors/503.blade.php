@@ -8,7 +8,7 @@
 
     <section class="block" >
         <div class="container flex flex-col items-center justify-center px-10 pt-8 mx-auto lg:px-32">
-            <img class="object-cover object-center mx-auto mb-10 rounded-lg lg:w-50 md:w-20/6 w-20/6" alt="hero"
+            <img class="object-cover object-center mx-auto mb-10 rounded-lg lg:w-50 md:w-20/6 w-50" alt="hero"
                  src="https://www.techcounsellor.com/wp-content/uploads/2018/05/Maintenance-Mode.png">
         </div>
     </section>
