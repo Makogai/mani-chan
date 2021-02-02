@@ -1,4 +1,5 @@
 <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 <body class="bg-gray-800" >
 
 
@@ -39,13 +40,22 @@
             
                             <div class="relative w-2/4 mr-4 text-left lg:w-full xl:w-1/2 md:w-full">
                                 <input type="text" id="hero-field" name="hero-field"
-                                    class="flex-grow w-full px-4 py-2 mb-4 mr-4 text-base text-purple-700 bg-gray-100 border border-gray-400 rounded-lg focus:outline-none focus:border-purple-500 sm:mb-0 focus:bg-white">
+                                    class="flex-grow w-full px-4 py-2 mb-4 mr-4 text-base text-gray-400 bg-gray-700 border border-gray-800 rounded-lg focus:outline-none focus:border-purple-500 sm:mb-0 focus:bg-gray-600">
                             </div>
                             <button
-                                class="flex items-center px-4 py-2 mt-auto font-semibold text-white transition duration-500 ease-in-out transform rounded-lg shadow-xl bg-gradient-to-r from-blue-700 hover:from-blue-600 to-blue-600 hover:to-blue-700 hover:-translate-y-1 hover:scale-110 focus:shadow-outline focus:outline-none">Action</button>
+                            id="go"
+                                class="flex items-center px-4 py-2 mt-auto font-semibold text-white transition duration-500 ease-in-out transform rounded-lg shadow-xl bg-gradient-to-r from-blue-700 hover:from-blue-600 to-blue-600 hover:to-blue-700 hover:-translate-y-1 hover:scale-110 focus:shadow-outline focus:outline-none">Go</button>
                         </div>
-                        <p class="w-1/3 mx-auto mt-6 mb-8 text-sm text-gray-600 ">Tnter your access token here in order to access the website. </p>
+                        <p class="w-1/3 mx-auto mt-6 mb-8 text-sm text-gray-600 ">Enter your access token here in order to access the website. If you don't have one, you can ask me on discord.</p>
         </div>
     </section>
 
 </body>
+<script>
+    $('#go').click(function(){
+    let token = $('#hero-field').val();
+    location.href='/'+ token;
+        console.log(token);
+    });
+
+</script>
