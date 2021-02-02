@@ -39,7 +39,18 @@
                         <path fill="none" d="M0 0h24v24H0z" />
                         <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" /></svg>
                 </a>
+                
             </div>
+            <div class="flex items-end justify-center w-full mx-auto mt-12 lg:w-1/2">
+            
+                            <div class="relative w-2/4 mr-4 text-left lg:w-full xl:w-1/2 md:w-full">
+                                <input type="text" id="hero-field" name="hero-field"
+                                    class="flex-grow w-full px-4 py-2 mb-4 mr-4 text-base text-purple-700 bg-gray-100 border border-gray-400 rounded-lg focus:outline-none focus:border-purple-500 sm:mb-0 focus:bg-white">
+                            </div>
+                            <button
+                                class="flex items-center px-4 py-2 mt-auto font-semibold text-white transition duration-500 ease-in-out transform rounded-lg shadow-xl bg-gradient-to-r from-blue-700 hover:from-blue-600 to-blue-600 hover:to-blue-700 hover:-translate-y-1 hover:scale-110 focus:shadow-outline focus:outline-none">Action</button>
+                        </div>
+                        <p class="w-1/3 mx-auto mt-6 mb-8 text-sm text-gray-600 ">Tnter your access token here in order to access the website. </p>
         </div>
     </section>
 
