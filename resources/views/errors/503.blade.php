@@ -1,10 +1,4 @@
 <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-<style>
-    body{
-        background-image: url("https://www.itl.cat/pngfile/big/4-43065_anime-wallpaper-gif-1080p.jpg");
-
-    }
-</style>
 <body class="bg-gray-800" >
 
 
@@ -14,7 +8,7 @@
 
     <section class="block" >
         <div class="container flex flex-col items-center justify-center px-10 pt-8 mx-auto lg:px-32">
-            <img class="object-cover object-center mx-auto mb-10 rounded-lg lg:w-50 md:w-20/6 w-20/6" alt="hero"
+            <img class="object-cover object-center mx-auto mb-10 rounded-lg lg:w-50 md:w-20/6 w-50" alt="hero"
                  src="https://www.techcounsellor.com/wp-content/uploads/2018/05/Maintenance-Mode.png">
         </div>
     </section>
